@@ -14,10 +14,7 @@ public class Mov_xrl8 : MonoBehaviour
         UpdateVelocity();
 
         transform.position = new Vector3(
-            CalculatePosition(transform.position.x),
-            transform.position.y,
-            transform.position.z
-        );
+            CalculatePosition(transform.position.x), transform.position.y, transform.position.z);
     }
 
     private float CalculatePosition(float positionX)
